@@ -15,7 +15,7 @@ isi(){
      read ip 
      curl -s $url$ip
      echo $y"TERIMA KASIH KERANA MENGGUNAKAN TOOLS ./TN.SPUKY"
-} 
+ 
 perintah(){
     echo $y"INGIN TERUSKAN?"
     read -p "y/n :" pill
