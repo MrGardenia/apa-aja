@@ -7,10 +7,13 @@ c='\033[36;1m'
 r='\033[31;1m'
 w='\033[37;1m'
 y='\033[33;1m'
+
+
 isi(){
      url=http://ip-api.com/
      echo $g"MASUKAN NAMA LU TOD ...."
-     echo ""TERIMAKASIH
+     read nick
+     echo "TERIMA KASIH $nick"
      echo $y"MASUKKAN IP TARGET" 
      read ip 
      curl -s $url$ip
